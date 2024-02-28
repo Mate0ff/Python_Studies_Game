@@ -62,7 +62,7 @@ def hit(duckX, duckY, bulletX, bulletY):
 pkt = '0'
 font = pygame.font.SysFont('Comic Sans MS', 25)
 font1 = pygame.font.SysFont('Comic Sans MS', 25)
-punkty = font1.render('Punkty', True, (0, 0, 0))
+points = font1.render('Points', True, (0, 0, 0))
 
 
 def pkt1():
@@ -101,7 +101,7 @@ def end():
         screen.blit(text3, text3_rect)
         pkt1()
         bullet(bulletX, bulletY)
-        screen.blit(punkty, (10, 530))
+        screen.blit(points, (10, 530))
         pygame.display.flip()
 
 
@@ -127,7 +127,7 @@ def paused():
         screen.blit(text3, text3_rect)
         pkt1()
         bullet(bulletX, bulletY)
-        screen.blit(punkty, (10, 530))
+        screen.blit(points, (10, 530))
         pygame.display.flip()
 
 
@@ -158,7 +158,7 @@ while run:  # petla by ekran pokazywal sie bez przerwy
                     bulletX = hunterX
                     bullet(bulletX, bulletY)
     pkt1()
-    screen.blit(punkty, (10, 530))
+    screen.blit(points, (10, 530))
     if pygame.key.get_pressed()[pygame.K_LEFT]:  # ruch postaci
         hunterX -= hunterV
     if pygame.key.get_pressed()[pygame.K_RIGHT]:
