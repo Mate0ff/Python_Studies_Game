@@ -1,10 +1,16 @@
 # Python_Studies_Game
 
-## General info
-This project is a simple game in Python for my classes.
+Welcome to **Duck Hunt**, a simple  Python game created for my university class. The objective is straightforward: shoot as many targets as possible within 45 seconds! The game challenges players to be quick and accurate as they move and shoot using arrow keys.
 
-## About game
-Game is called Duck Hunt and your objective is to shoot as many ducks as you can in 45 seconds. For each successfully shot duck you get 1 point.
+## Installation
 
-## Controls
-To move and shoot use arrows.
+To play Duck Hunt clone repository and install required packages.
+
+## How to Play
+
+Control your character using the arrow keys:
+
+- **Left/Right arrows:** Move left or right
+- **Up arrow:** Shoot
+
+Aim for the high score by shooting as many ducks as you can within the time limit!
